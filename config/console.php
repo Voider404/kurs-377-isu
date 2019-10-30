@@ -10,7 +10,7 @@ $config = [
     'controllerNamespace' => 'app\commands',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
         '@tests' => '@app/tests',
     ],
     'components' => [
@@ -26,6 +26,12 @@ $config = [
             ],
         ],
         'db' => $db,
+    ],
+    'modules' => [
+        /**
+         * @linlk https://github.com/dektrium/yii2-rbac/blob/master/docs/installation.md
+         */
+        'rbac' => 'dektrium\rbac\RbacConsoleModule',
     ],
     'params' => $params,
     /*
