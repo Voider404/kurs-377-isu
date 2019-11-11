@@ -12,16 +12,6 @@ $config = [
         '@npm' => '@vendor/npm-asset',
     ],
     'components' => [
-        'view' => [
-            /**
-             * @link https://github.com/dmstr/yii2-adminlte-asset
-             */
-            'theme' => [
-                'pathMap' => [
-                    '@app/views' => '@vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
-                ],
-            ],
-        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'YFij0j9qkun9TVTQCzCpX5X20dGrQoqb',
