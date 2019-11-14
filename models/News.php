@@ -44,13 +44,13 @@ class News extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'news_id' => 'News ID',
-            'news_name' => 'News Name',
+            'news_id' => 'ID',
+            'news_name' => 'News header',
             'news_text' => 'News Text',
-            'news_img' => 'News Img',
-            'news_category' => 'News Category',
-            'news_author' => 'News Author',
-            'news_date' => 'News Date',
+            'news_img' => 'Image link',
+            'news_category' => 'Category',
+            'news_author' => 'Author',
+            'news_date' => 'Publish Date',
         ];
     }
 }
