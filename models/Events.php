@@ -48,4 +48,24 @@ class Events extends \yii\db\ActiveRecord
             'event_date' => 'Event Date',
         ];
     }
+    public function getEventID()
+    {
+        return $this->event_id;
+    }
+    public function getEventName()
+    {
+        return $this->event_name;
+    }
+    public function getEventText()
+    {
+        return $this->event_text;
+    }
+    public function getEventImg()
+    {
+        return $this->event_img;
+    }
+    public function getEventDate()
+    {
+        return $this->event_date;
+    }
 }
